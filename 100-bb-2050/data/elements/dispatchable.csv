@@ -9,5 +9,5 @@ BB_pp_bagasse,BB_bus_el,3.19,18,,dispatchable,biomass,"{""summed_max"": 12000}"
 BB_pp_anaerobic_digestion,BB_bus_el,15,5,,dispatchable,,
 BB_storage_pumped_hydro,BB_bus_el,0.001,150,3000,storage,water,
 BB_pp_SW_SCGT_GT06,BB_bus_el,72.2,20,,dispatchable,,
-BB_excess,BB_bus_el,,,,excess,electricity,
+BB_excess,BB_bus_el,0,,,excess,electricity,
 BB_shortage,BB_bus_el,10000,100000,,shortage,electricity,
