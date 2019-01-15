@@ -67,7 +67,7 @@
                     },
                     {
                         "name": "amount",
-                        "type": "number",
+                        "type": "string",
                         "format": "default"
                     },
                     {
@@ -142,12 +142,12 @@
                     },
                     {
                         "name": "capacity",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
                         "name": "storage_capacity",
-                        "type": "number",
+                        "type": "string",
                         "format": "default"
                     },
                     {
