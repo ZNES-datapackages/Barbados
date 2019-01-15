@@ -1,0 +1,9 @@
+name,bus,marginal_cost,capacity,storage_capacity,type,carrier,edges_parameters
+BB_pp_GT02,BB_bus_el,68.471,11,,dispatchable,diesel,
+BB_pp_MSD,BB_bus_el,49.502,33,,dispatchable,gas,
+BB_pp_LSD,BB_bus_el,49.502,78,,dispatchable,gas,
+BB_pp_biomass,BB_bus_el,3.19,18,,dispatchable,biomass,"{""summed_max"": 12000}"
+BB_storage_battery_lithium_ion,BB_bus_el,,155,150,storage,chemical,
+BB_storage_pumped_hydro,BB_bus_el,,0.000001,3000,storage,water,
+BB_excess,BB_bus_el,,,,excess,electricity,
+BB_shortage,BB_bus_el,10000,100000,,shortage,electricity,
