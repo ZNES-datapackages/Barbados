@@ -1,0 +1,585 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data/sequences/volatile_profile.csv",
+            "profile": "tabular-data-resource",
+            "name": "volatile_profile",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_load",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_utility_scale_solar",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_utility_scale_wind",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_distributed_scale_solar",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/elements/volatile.csv",
+            "profile": "tabular-data-resource",
+            "name": "volatile",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "amount",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "profile",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/elements/bus.csv",
+            "profile": "tabular-data-resource",
+            "name": "bus",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/elements/dispatchable.csv",
+            "profile": "tabular-data-resource",
+            "name": "dispatchable",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bus",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "marginal_cost",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "storage_capacity",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "edges_parameters",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "results/100-BB-2050/problem.csv",
+            "profile": "tabular-data-resource",
+            "name": "problem",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "objective",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "solver_time",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "constraints",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "variables",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "results/100-BB-2050/sequences/volatile.csv",
+            "profile": "tabular-data-resource",
+            "name": "volatile",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "from",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_utility_scale_wind",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_utility_scale_solar",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_distributed_scale_solar",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "results/100-BB-2050/sequences/load.csv",
+            "profile": "tabular-data-resource",
+            "name": "load",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "from",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_bus_el",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "results/100-BB-2050/sequences/shortage.csv",
+            "profile": "tabular-data-resource",
+            "name": "shortage",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "from",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_shortage",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "results/100-BB-2050/sequences/dispatchable.csv",
+            "profile": "tabular-data-resource",
+            "name": "dispatchable",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "from",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_pp_GT02",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_pp_MSD",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_pp_MSD2",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_pp_LSD",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_pp_biomass",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_shortage",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "results/100-BB-2050/sequences/excess.csv",
+            "profile": "tabular-data-resource",
+            "name": "excess",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "from",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_bus_el",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "results/100-BB-2050/sequences/storage.csv",
+            "profile": "tabular-data-resource",
+            "name": "storage",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "from",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_bus_el",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_storage_battery_lithium_ion",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_storage_battery_lithium_ion",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_bus_el",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_storage_pumped_hydro",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_storage_pumped_hydro",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "archive/Barbados_IRENA_Ref_scenario.csv",
+            "profile": "tabular-data-resource",
+            "name": "Barbados_IRENA_Ref_scenario",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "class",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "label",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "source",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "target",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "conversion_factors",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nominal_value",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "min",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "max",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "summed_max",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "actual_value",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "fixed_costs",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "variable_costs",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "fixed",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nominal_capacity",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_loss",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "inflow_conversion_factor",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "outflow_conversion_factor",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "initial_capacity",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_min",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "capacity_max",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "balanced",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "archive/status_quo_seq_Bds_2018_05_24.csv",
+            "profile": "tabular-data-resource",
+            "name": "status_quo_seq_Bds_2018_05_24",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_load",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_utility_scale_solar",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_utility_scale_wind",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_distributed_scale_solar",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
