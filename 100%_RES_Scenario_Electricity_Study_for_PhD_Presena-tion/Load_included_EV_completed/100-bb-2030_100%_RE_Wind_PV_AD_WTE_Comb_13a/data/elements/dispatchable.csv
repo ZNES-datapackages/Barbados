@@ -1,0 +1,17 @@
+name,bus,marginal_cost,capacity,storage_capacity,type,carrier,edges_parameters
+BB_pp_bagasse,BB_bus_el,18,25,,dispatchable,biomass,"{""summed_max"": 4599}"
+BB_pp_WTE_combustion,BB_bus_el,20,11,,dispatchable,,
+BB_pp_SG_LSD_D12,BB_bus_el,28.95,12.5,,dispatchable,,
+BB_pp_SG_LSD_D13,BB_bus_el,28.95,12.5,,dispatchable,,
+BB_pp_SW_SCGT_GT03,BB_bus_el,34.86,13,,dispatchable,,
+BB_pp_SW_SCGT_GT04,BB_bus_el,72.2,20,,dispatchable,,
+BB_pp_SW_SCGT_GT05,BB_bus_el,72.2,20,,dispatchable,,
+BB_pp_SW_SCGT_GT06,BB_bus_el,72.2,20,,dispatchable,,
+BB_pp_GR_SCGT_GT02,BB_bus_el,100000,20,,dispatchable,,
+BB_pp_SG_LSD_D10,BB_bus_el,100000,12.5,,dispatchable,,
+BB_pp_SG_LSD_D14,BB_bus_el,100000,26,,dispatchable,,
+BB_pp_SG_LSD_D15,BB_bus_el,100000,29.7,,dispatchable,,
+BB_pp_anaerobic_digestion,BB_bus_el,100000,12,,dispatchable,,
+BB_storage_pumped_hydro,BB_bus_el,0.001,180.6,5000,storage,water,
+BB_excess,BB_bus_el,0,,,excess,electricity,
+BB_shortage,BB_bus_el,10000,100000,,shortage,electricity,
