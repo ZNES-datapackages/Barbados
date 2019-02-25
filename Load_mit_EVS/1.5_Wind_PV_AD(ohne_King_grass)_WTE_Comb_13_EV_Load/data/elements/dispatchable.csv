@@ -7,12 +7,8 @@ BB_pp_SW_SCGT_GT04,BB_bus_el,104.65,20,,dispatchable,,
 BB_pp_SW_SCGT_GT06,BB_bus_el,104.65,20,,dispatchable,,
 BB_pp_SW_SCGT_GT05,BB_bus_el,104.65,20,,dispatchable,,
 BB_pp_SW_SCGT_GT03,BB_bus_el,34.86,13,,dispatchable,,
-BB_pp_OCGT_GT20,BB_bus_el,10000,21,,dispatchable,,
-BB_pp_SG_LSD_D15,BB_bus_el,10000,29.7,,dispatchable,,
-BB_pp_SG_LSG_D12,BB_bus_el,10000,12.5,,dispatchable,,
-BB_pp_GR_SCGT_GT02,BB_bus_el,10000,13,,dispatchable,,
+BB_pp_bagasse,BB_bus_el,18,25,,dispatchable,biomass,"{""summed_max"": 4599}"
 BB_pp_WTE_combustion,BB_bus_el,20,11,,dispatchable,,
-BB_pp_bagasse,BB_bus_el,10000,25,,dispatchable,biomass,"{""summed_max"": 4599}"
 BB_pp_anaerobic_digestion,BB_bus_el,15,26,,dispatchable,,
 BB_storage_pumped_hydro,BB_bus_el,0.001,172.9,5000,storage,water,
 BB_excess,BB_bus_el,0,,,excess,electricity,
