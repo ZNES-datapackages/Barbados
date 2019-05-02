@@ -1,5 +1,0 @@
-name,bus,capacity,amount,type,profile,carrier
-BB_utility_scale_wind,BB_bus_el,219,,volatile,BB_utility_scale_wind,wind
-BB_utility_scale_solar,BB_bus_el,129.21,,volatile,BB_utility_scale_solar,solar
-BB_distributed_scale_solar,BB_bus_el,89.79,,volatile,BB_distributed_scale_solar,solar
-BB_load,BB_bus_el,,2318912.968,load,BB_load,electricity
