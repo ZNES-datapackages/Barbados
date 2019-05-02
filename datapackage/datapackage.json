@@ -143,8 +143,18 @@
                         "format": "default"
                     },
                     {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -188,8 +198,18 @@
                         "format": "default"
                     },
                     {
+                        "name": "carrier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "tech",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
                         "name": "marginal_cost",
-                        "type": "number",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
@@ -372,6 +392,31 @@
                             "resource": "volatile_profile"
                         }
                     }
+                ]
+            }
+        },
+        {
+            "path": "data/sequences/load_profile.csv",
+            "profile": "tabular-data-resource",
+            "name": "load_profile",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "timeindex",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "BB_load_profile",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
                 ]
             }
         },
