@@ -16,7 +16,7 @@ if not os.path.exists(results_path):
 
 # create energy system object
 es = EnergySystem.from_datapackage(
-    os.path.join("./Load_mit_EVS/1.6_Wind_PV_Bagasse_WTE_Comb_14_EV_Load", "datapackage.json"),
+    os.path.join("./datapackage", "datapackage.json"),
     attributemap={},
     typemap=TYPEMAP,
 )
